@@ -1,0 +1,535 @@
+{
+  "orders": 4000,
+  "offered_rate": 250.0,
+  "load_s": 16.0,
+  "drained_s": 16.4,
+  "events": [
+    {
+      "t": 4.01,
+      "event": "kill allocator"
+    },
+    {
+      "t": 6.53,
+      "event": "start allocator"
+    },
+    {
+      "t": 9.01,
+      "event": "kill order-service"
+    },
+    {
+      "t": 11.47,
+      "event": "start order-service"
+    }
+  ],
+  "status_counts": {
+    "DONE": 4000
+  },
+  "lost": 0,
+  "completed_twice": 0,
+  "tasks_twice": 0,
+  "client_retries": 151,
+  "duplicate_requests_absorbed": 93,
+  "duplicate_callbacks_absorbed": 0,
+  "allocator": {
+    "tasks": 4000,
+    "pending": 0,
+    "assigned": 0,
+    "done": 0,
+    "notified": 4000,
+    "planner": "lp",
+    "window_s": 5.0
+  },
+  "alarms": [
+    {
+      "alarm": "OrderBacklogHigh",
+      "fired_s": 6.54,
+      "cleared_s": 9.07
+    },
+    {
+      "alarm": "OrderBacklogHigh",
+      "fired_s": 12.64,
+      "cleared_s": 14.4
+    },
+    {
+      "alarm": "DependencyDown",
+      "fired_s": 4.28,
+      "cleared_s": 4.79
+    },
+    {
+      "alarm": "DependencyDown",
+      "fired_s": 5.04,
+      "cleared_s": 5.54
+    },
+    {
+      "alarm": "DependencyDown",
+      "fired_s": 5.79,
+      "cleared_s": 6.8
+    },
+    {
+      "alarm": "DependencyDown",
+      "fired_s": 9.07,
+      "cleared_s": 11.61
+    }
+  ],
+  "series": [
+    {
+      "t": 0.0,
+      "open": 0,
+      "done": 0,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 0.26,
+      "open": 65,
+      "done": 0,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 0.51,
+      "open": 73,
+      "done": 55,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 0.76,
+      "open": 61,
+      "done": 130,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 1.01,
+      "open": 63,
+      "done": 191,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 1.27,
+      "open": 63,
+      "done": 254,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 1.52,
+      "open": 49,
+      "done": 331,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 1.77,
+      "open": 65,
+      "done": 378,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 2.02,
+      "open": 58,
+      "done": 448,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 2.27,
+      "open": 63,
+      "done": 506,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 2.52,
+      "open": 64,
+      "done": 568,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 2.78,
+      "open": 60,
+      "done": 634,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 3.03,
+      "open": 53,
+      "done": 704,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 3.28,
+      "open": 51,
+      "done": 769,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 3.53,
+      "open": 64,
+      "done": 819,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 3.78,
+      "open": 48,
+      "done": 898,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 4.03,
+      "open": 54,
+      "done": 955,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 4.28,
+      "open": 116,
+      "done": 955,
+      "breaker": "OPEN"
+    },
+    {
+      "t": 4.53,
+      "open": 179,
+      "done": 955,
+      "breaker": "OPEN"
+    },
+    {
+      "t": 4.79,
+      "open": 242,
+      "done": 955,
+      "breaker": "HALF_OPEN"
+    },
+    {
+      "t": 5.04,
+      "open": 305,
+      "done": 955,
+      "breaker": "OPEN"
+    },
+    {
+      "t": 5.29,
+      "open": 367,
+      "done": 955,
+      "breaker": "OPEN"
+    },
+    {
+      "t": 5.54,
+      "open": 430,
+      "done": 955,
+      "breaker": "HALF_OPEN"
+    },
+    {
+      "t": 5.79,
+      "open": 493,
+      "done": 955,
+      "breaker": "OPEN"
+    },
+    {
+      "t": 6.04,
+      "open": 556,
+      "done": 955,
+      "breaker": "OPEN"
+    },
+    {
+      "t": 6.29,
+      "open": 619,
+      "done": 955,
+      "breaker": "OPEN"
+    },
+    {
+      "t": 6.54,
+      "open": 649,
+      "done": 988,
+      "breaker": "OPEN"
+    },
+    {
+      "t": 6.8,
+      "open": 711,
+      "done": 988,
+      "breaker": "HALF_OPEN"
+    },
+    {
+      "t": 7.05,
+      "open": 774,
+      "done": 988,
+      "breaker": "HALF_OPEN"
+    },
+    {
+      "t": 7.3,
+      "open": 826,
+      "done": 999,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 7.55,
+      "open": 815,
+      "done": 1074,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 7.8,
+      "open": 800,
+      "done": 1151,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 8.05,
+      "open": 777,
+      "done": 1237,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 8.31,
+      "open": 744,
+      "done": 1333,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 8.56,
+      "open": 713,
+      "done": 1427,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 8.81,
+      "open": 662,
+      "done": 1541,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 9.07,
+      "open": null,
+      "done": null,
+      "breaker": "DOWN"
+    },
+    {
+      "t": 9.33,
+      "open": null,
+      "done": null,
+      "breaker": "DOWN"
+    },
+    {
+      "t": 9.58,
+      "open": null,
+      "done": null,
+      "breaker": "DOWN"
+    },
+    {
+      "t": 9.83,
+      "open": null,
+      "done": null,
+      "breaker": "DOWN"
+    },
+    {
+      "t": 10.09,
+      "open": null,
+      "done": null,
+      "breaker": "DOWN"
+    },
+    {
+      "t": 10.34,
+      "open": null,
+      "done": null,
+      "breaker": "DOWN"
+    },
+    {
+      "t": 10.59,
+      "open": null,
+      "done": null,
+      "breaker": "DOWN"
+    },
+    {
+      "t": 10.84,
+      "open": null,
+      "done": null,
+      "breaker": "DOWN"
+    },
+    {
+      "t": 11.09,
+      "open": null,
+      "done": null,
+      "breaker": "DOWN"
+    },
+    {
+      "t": 11.36,
+      "open": null,
+      "done": null,
+      "breaker": "DOWN"
+    },
+    {
+      "t": 11.61,
+      "open": 733,
+      "done": 1610,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 11.86,
+      "open": 960,
+      "done": 1610,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 12.12,
+      "open": 1206,
+      "done": 1610,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 12.38,
+      "open": 636,
+      "done": 2447,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 12.64,
+      "open": 626,
+      "done": 2534,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 12.89,
+      "open": 595,
+      "done": 2628,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 13.14,
+      "open": 548,
+      "done": 2738,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 13.39,
+      "open": 531,
+      "done": 2818,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 13.65,
+      "open": 473,
+      "done": 2939,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 13.9,
+      "open": 440,
+      "done": 3035,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 14.15,
+      "open": 401,
+      "done": 3136,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 14.4,
+      "open": 372,
+      "done": 3229,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 14.66,
+      "open": 312,
+      "done": 3353,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 14.91,
+      "open": 278,
+      "done": 3449,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 15.16,
+      "open": 225,
+      "done": 3565,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 15.41,
+      "open": 194,
+      "done": 3659,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 15.66,
+      "open": 147,
+      "done": 3769,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 15.91,
+      "open": 117,
+      "done": 3862,
+      "breaker": "CLOSED"
+    },
+    {
+      "t": 16.16,
+      "open": 36,
+      "done": 3964,
+      "breaker": "CLOSED"
+    }
+  ],
+  "analytics": {
+    "orders": 4000,
+    "completed": 4000,
+    "completed_twice": 0,
+    "tasks_twice": 0,
+    "latency_ms": {
+      "p50": 938,
+      "p95": 5046,
+      "p99": 7260
+    },
+    "by_station": [
+      {
+        "station": 0,
+        "orders": 994,
+        "mean_latency_ms": 1711.0
+      },
+      {
+        "station": 1,
+        "orders": 1003,
+        "mean_latency_ms": 1728.0
+      },
+      {
+        "station": 2,
+        "orders": 1009,
+        "mean_latency_ms": 1699.0
+      },
+      {
+        "station": 3,
+        "orders": 994,
+        "mean_latency_ms": 1695.0
+      }
+    ],
+    "busiest_second": [
+      12,
+      1075
+    ],
+    "phases": [
+      {
+        "phase": "before faults",
+        "orders": 1004,
+        "p50_ms": 237,
+        "p99_ms": 4180
+      },
+      {
+        "phase": "after kill allocator",
+        "orders": 630,
+        "p50_ms": 3410,
+        "p99_ms": 8019
+      },
+      {
+        "phase": "after start allocator",
+        "orders": 616,
+        "p50_ms": 3916,
+        "p99_ms": 5584
+      },
+      {
+        "phase": "after kill order-service",
+        "orders": 5,
+        "p50_ms": 871,
+        "p99_ms": 4145
+      },
+      {
+        "phase": "after start order-service",
+        "orders": 1745,
+        "p50_ms": 833,
+        "p99_ms": 4060
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "mode": "PER_WRITE",
+    "clients": 32,
+    "accepted": 4780,
+    "orders_per_s": 1191,
+    "p50_ms": 16.21,
+    "p99_ms": 129.36,
+    "fsyncs_per_order": 1.021
+  },
+  {
+    "mode": "GROUP_COMMIT",
+    "clients": 32,
+    "accepted": 6842,
+    "orders_per_s": 1706,
+    "p50_ms": 17.48,
+    "p99_ms": 46.03,
+    "fsyncs_per_order": 0.529
+  }
+]

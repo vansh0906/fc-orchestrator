@@ -1,0 +1,455 @@
+{
+  "config": {
+    "speed_mps": 1.5,
+    "arrivals_per_s": 0.85,
+    "stations": 4,
+    "skus": 400,
+    "drive_units": 160,
+    "hours": 4.0,
+    "picks_per_s_per_station": 0.25
+  },
+  "sweep": [
+    {
+      "window_s": 1.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 123.6,
+      "p95_s": 158.7,
+      "travel_m_per_order": 179.1,
+      "robot_util": 0.919,
+      "station_util": 0.827,
+      "max_backlog": 25
+    },
+    {
+      "window_s": 1.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 112.4,
+      "p95_s": 143.1,
+      "travel_m_per_order": 171.0,
+      "robot_util": 0.866,
+      "station_util": 0.829,
+      "max_backlog": 25
+    },
+    {
+      "window_s": 2.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 118.7,
+      "p95_s": 158.1,
+      "travel_m_per_order": 169.9,
+      "robot_util": 0.894,
+      "station_util": 0.828,
+      "max_backlog": 26
+    },
+    {
+      "window_s": 2.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 108.6,
+      "p95_s": 135.3,
+      "travel_m_per_order": 161.3,
+      "robot_util": 0.83,
+      "station_util": 0.829,
+      "max_backlog": 26
+    },
+    {
+      "window_s": 3.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 116.3,
+      "p95_s": 148.2,
+      "travel_m_per_order": 164.9,
+      "robot_util": 0.874,
+      "station_util": 0.828,
+      "max_backlog": 26
+    },
+    {
+      "window_s": 3.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 106.3,
+      "p95_s": 130.5,
+      "travel_m_per_order": 157.1,
+      "robot_util": 0.809,
+      "station_util": 0.83,
+      "max_backlog": 26
+    },
+    {
+      "window_s": 4.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 112.7,
+      "p95_s": 144.9,
+      "travel_m_per_order": 159.2,
+      "robot_util": 0.848,
+      "station_util": 0.83,
+      "max_backlog": 25
+    },
+    {
+      "window_s": 4.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 107.1,
+      "p95_s": 130.0,
+      "travel_m_per_order": 153.5,
+      "robot_util": 0.8,
+      "station_util": 0.83,
+      "max_backlog": 24
+    },
+    {
+      "window_s": 6.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 114.3,
+      "p95_s": 142.2,
+      "travel_m_per_order": 158.6,
+      "robot_util": 0.846,
+      "station_util": 0.83,
+      "max_backlog": 28
+    },
+    {
+      "window_s": 6.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 107.1,
+      "p95_s": 129.2,
+      "travel_m_per_order": 152.8,
+      "robot_util": 0.797,
+      "station_util": 0.83,
+      "max_backlog": 28
+    },
+    {
+      "window_s": 8.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 113.4,
+      "p95_s": 140.1,
+      "travel_m_per_order": 156.0,
+      "robot_util": 0.83,
+      "station_util": 0.829,
+      "max_backlog": 29
+    },
+    {
+      "window_s": 8.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 109.3,
+      "p95_s": 131.1,
+      "travel_m_per_order": 151.4,
+      "robot_util": 0.798,
+      "station_util": 0.83,
+      "max_backlog": 29
+    },
+    {
+      "window_s": 10.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 115.3,
+      "p95_s": 140.7,
+      "travel_m_per_order": 156.0,
+      "robot_util": 0.831,
+      "station_util": 0.829,
+      "max_backlog": 31
+    },
+    {
+      "window_s": 10.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 110.6,
+      "p95_s": 132.1,
+      "travel_m_per_order": 151.3,
+      "robot_util": 0.799,
+      "station_util": 0.83,
+      "max_backlog": 31
+    },
+    {
+      "window_s": 12.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 114.8,
+      "p95_s": 137.8,
+      "travel_m_per_order": 154.6,
+      "robot_util": 0.822,
+      "station_util": 0.83,
+      "max_backlog": 32
+    },
+    {
+      "window_s": 12.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 111.6,
+      "p95_s": 131.5,
+      "travel_m_per_order": 150.7,
+      "robot_util": 0.795,
+      "station_util": 0.83,
+      "max_backlog": 32
+    },
+    {
+      "window_s": 16.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 117.9,
+      "p95_s": 140.6,
+      "travel_m_per_order": 153.9,
+      "robot_util": 0.823,
+      "station_util": 0.829,
+      "max_backlog": 35
+    },
+    {
+      "window_s": 16.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 115.2,
+      "p95_s": 136.7,
+      "travel_m_per_order": 150.3,
+      "robot_util": 0.804,
+      "station_util": 0.829,
+      "max_backlog": 35
+    },
+    {
+      "window_s": 20.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 120.1,
+      "p95_s": 141.9,
+      "travel_m_per_order": 153.3,
+      "robot_util": 0.823,
+      "station_util": 0.829,
+      "max_backlog": 38
+    },
+    {
+      "window_s": 20.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 118.4,
+      "p95_s": 138.8,
+      "travel_m_per_order": 150.0,
+      "robot_util": 0.807,
+      "station_util": 0.829,
+      "max_backlog": 38
+    },
+    {
+      "window_s": 24.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 121.9,
+      "p95_s": 148.1,
+      "travel_m_per_order": 152.8,
+      "robot_util": 0.822,
+      "station_util": 0.829,
+      "max_backlog": 43
+    },
+    {
+      "window_s": 24.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 120.0,
+      "p95_s": 141.3,
+      "travel_m_per_order": 149.9,
+      "robot_util": 0.805,
+      "station_util": 0.829,
+      "max_backlog": 43
+    },
+    {
+      "window_s": 32.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 128.3,
+      "p95_s": 153.1,
+      "travel_m_per_order": 152.3,
+      "robot_util": 0.83,
+      "station_util": 0.829,
+      "max_backlog": 49
+    },
+    {
+      "window_s": 32.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 127.8,
+      "p95_s": 151.2,
+      "travel_m_per_order": 149.6,
+      "robot_util": 0.823,
+      "station_util": 0.829,
+      "max_backlog": 49
+    },
+    {
+      "window_s": 48.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 140.1,
+      "p95_s": 168.5,
+      "travel_m_per_order": 151.6,
+      "robot_util": 0.842,
+      "station_util": 0.828,
+      "max_backlog": 67
+    },
+    {
+      "window_s": 48.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 139.5,
+      "p95_s": 164.3,
+      "travel_m_per_order": 149.4,
+      "robot_util": 0.836,
+      "station_util": 0.827,
+      "max_backlog": 67
+    },
+    {
+      "window_s": 64.0,
+      "planner": "greedy",
+      "orders": 12035,
+      "p50_s": 155.6,
+      "p95_s": 186.5,
+      "travel_m_per_order": 151.3,
+      "robot_util": 0.867,
+      "station_util": 0.826,
+      "max_backlog": 75
+    },
+    {
+      "window_s": 64.0,
+      "planner": "lp",
+      "orders": 12035,
+      "p50_s": 155.2,
+      "p95_s": 180.7,
+      "travel_m_per_order": 149.3,
+      "robot_util": 0.862,
+      "station_util": 0.826,
+      "max_backlog": 75
+    }
+  ],
+  "golden_section": {
+    "greedy": {
+      "window_s": 14.77,
+      "p95_s": 140.5,
+      "evaluations": 12,
+      "best": {
+        "window_s": 14.771096932836535,
+        "planner": "greedy",
+        "orders": 12035,
+        "p50_s": 116.8,
+        "p95_s": 140.5,
+        "travel_m_per_order": 155.2,
+        "robot_util": 0.824,
+        "station_util": 0.829,
+        "max_backlog": 36
+      },
+      "trace": [
+        [
+          4.9,
+          146.0
+        ],
+        [
+          13.07,
+          141.1
+        ],
+        [
+          23.98,
+          146.4
+        ],
+        [
+          8.98,
+          141.9
+        ],
+        [
+          16.48,
+          144.3
+        ],
+        [
+          11.33,
+          142.4
+        ],
+        [
+          14.28,
+          141.0
+        ],
+        [
+          15.08,
+          143.0
+        ],
+        [
+          13.81,
+          142.6
+        ],
+        [
+          14.58,
+          141.0
+        ],
+        [
+          14.77,
+          140.5
+        ],
+        [
+          14.89,
+          141.7
+        ]
+      ]
+    },
+    "lp": {
+      "window_s": 4.9,
+      "p95_s": 128.7,
+      "evaluations": 12,
+      "best": {
+        "window_s": 4.896653353082707,
+        "planner": "lp",
+        "orders": 12035,
+        "p50_s": 106.3,
+        "p95_s": 128.7,
+        "travel_m_per_order": 154.1,
+        "robot_util": 0.797,
+        "station_util": 0.83,
+        "max_backlog": 27
+      },
+      "trace": [
+        [
+          4.9,
+          128.7
+        ],
+        [
+          13.07,
+          133.5
+        ],
+        [
+          2.67,
+          132.7
+        ],
+        [
+          7.12,
+          130.0
+        ],
+        [
+          3.88,
+          133.4
+        ],
+        [
+          5.65,
+          131.2
+        ],
+        [
+          4.48,
+          129.9
+        ],
+        [
+          5.17,
+          131.8
+        ],
+        [
+          4.73,
+          130.6
+        ],
+        [
+          5.0,
+          130.0
+        ],
+        [
+          4.83,
+          129.6
+        ],
+        [
+          4.94,
+          131.0
+        ]
+      ]
+    }
+  }
+}
